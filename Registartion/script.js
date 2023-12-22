@@ -1,4 +1,4 @@
-ocument.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     // Populate email dropdown for employee
     var employeeEmailDropdown = document.getElementById("employeeEmail");
     var employeeEmailOptions = ["employee1@example.com", "employee2@example.com", "employee3@example.com"];
