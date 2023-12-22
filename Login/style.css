@@ -1,0 +1,24 @@
+/* Your existing styles for registration buttons */
+
+/* Add a new class for square buttons */
+.square-button {
+    width: 100px; /* Set a fixed width for square buttons */
+    height: 100px; /* Set a fixed height for square buttons */
+    display: inline-block;
+    margin: 10px; /* Add margin for spacing between buttons */
+}
+
+/* Additional styling for login buttons */
+#loginButtons {
+    text-align: center; /* Center the login buttons */
+}
+
+/* Apply square-button class to login buttons */
+#loginButtons button {
+    /* Add any additional styling you want for login buttons */
+    /* For simplicity, let's reuse the existing button styles from registration buttons */
+    /* Add the square-button class to make them square */
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
